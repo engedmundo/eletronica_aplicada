@@ -13,11 +13,9 @@ void setup(){
 
 void loop(){
     digitalWrite(led_vermelho, 1);
+    digitalWrite(led_azul, 0);
     delay(1000);
     digitalWrite(led_vermelho, 0);
-    delay(1000);
     digitalWrite(led_azul, 1);
-    delay(1000);
-    digitalWrite(led_azul, 0);
     delay(1000);
 }
