@@ -1,5 +1,6 @@
 //criar variáveis
 #define led 13
+#define azul 8
 
 void setup(){
     pinMode(led, OUTPUT);
