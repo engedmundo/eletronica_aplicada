@@ -14,5 +14,9 @@ void setup(){
 }
 
 void loop(){
+    // ligar vermelho
     digitalWrite(vermelho, 1);
+    digitalWrite(verde, 0);
+    digitalWrite(azul, 0);
+    delay(2000);
 }
