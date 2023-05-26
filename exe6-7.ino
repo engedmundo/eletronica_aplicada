@@ -18,5 +18,20 @@ void loop(){
     digitalWrite(vermelho, 1);
     digitalWrite(verde, 0);
     digitalWrite(azul, 0);
-    delay(2000);
+    delay(100);
+    // ligar verde
+    digitalWrite(vermelho, 0);
+    digitalWrite(verde, 1);
+    digitalWrite(azul, 0);
+    delay(100);
+    // ligar azul
+    digitalWrite(vermelho, 0);
+    digitalWrite(verde, 0);
+    digitalWrite(azul, 1);
+    delay(100);
+    // ligar vermelho e verde
+    digitalWrite(vermelho, 1);
+    digitalWrite(verde, 1);
+    digitalWrite(azul, 0);
+    delay(100);
 }
