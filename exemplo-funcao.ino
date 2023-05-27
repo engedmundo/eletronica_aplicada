@@ -14,18 +14,15 @@ void setup(){
 }
 
 void loop(){
-    led_rgb(1, 0, 0);
-    led_rgb(0, 1, 0);
-    led_rgb(0, 0, 1);
-    led_rgb(1, 1, 0);
-    led_rgb(0, 1, 1);
-    led_rgb(1, 0, 1);
-    led_rgb(1, 1, 1);
+    led_rgb(255, 0, 0);
+    led_rgb(0, 255, 0);
+    led_rgb(0, 0, 255);
+    led_rgb(102, 205, 170);
 }
 // função propria - nós definimos o que ela faz
 void led_rgb(int estado_vermelho, int estado_verde, int estado_azul){
-    digitalWrite(vermelho, estado_vermelho);
-    digitalWrite(verde, estado_verde);
-    digitalWrite(azul, estado_azul);
-    delay(100);
+    analogWrite(vermelho, estado_vermelho);
+    analogWrite(verde, estado_verde);
+    analogWrite(azul, estado_azul);
+    delay(2000);
 }
