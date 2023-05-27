@@ -20,8 +20,35 @@ void setup(){
 
 void loop(){
     //numero 9
+    numero(1, 1, 1, 1, 0, 1, 1, 0);
     delay(1000);
     //numero 8
+    numero(1, 1, 1, 1, 1, 1, 1, 0);
+    delay(1000);
+    //numero 7
+    numero(1, 1, 1, 0, 0, 0, 0, 0);
+    delay(1000);
+    //numero 6
+    numero(1, 0, 1, 1, 1, 1, 1, 0);
+    delay(1000);
+    //numero 5
+    numero(1, 0, 1, 1, 0, 1, 1, 0);
+    delay(1000);
+    //numero 4
+    numero(0, 1, 1, 0, 0, 1, 1, 0);
+    delay(1000);
+    //numero 3
+    numero(1, 1, 1, 1, 0, 0, 1, 0);
+    delay(1000);
+    //numero 2
+    numero(1, 1, 0, 1, 1, 0, 1, 0);
+    delay(1000);
+    //numero 1
+    numero(0, 1, 1, 0, 0, 0, 0, 0);
+    delay(1000);
+    //numero 0
+    numero(1, 1, 1, 1, 1, 1, 0, 0);
+    delay(1000);
 }
 
 void numero(
