@@ -16,4 +16,28 @@ void loop()
   lcd.setCursor(0, 0);
   // escrever na tela
   lcd.print("Elet. Aplicada");
+  lcd.setCursor(0, 1);
+  lcd.print("Eng Mecanica UPF");
+  // deixar mensagem na tela por 3 segundos
+  delay(3000);
+
+  // limpar a tela
+  lcd.clear();
+  //posicionar o cursor
+  lcd.setCursor(0, 0);
+  lcd.print("Edmundo");
+  lcd.setCursor(0, 1);
+  lcd.print("63115");
+  delay(3000);
+
+  for(int i=0; i<=10; i++){
+    // limpar a tela
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print("Contador:");
+    
+    lcd.setCursor(0, 1);
+    lcd.print(i);
+    delay(1000);
+  }
 }
