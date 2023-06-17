@@ -15,6 +15,12 @@ void loop(){
     leitura_potenciometro = analogRead(potenciometro) / 4;
     // usar o valor lido para acionar o motor (entre 0 e 255)
     analogWrite(motor, leitura_potenciometro);
+
+    if (leitura_potenciometro > 0.7*255) {
+        digitalWrite(led, 1);
+    } else {
+        digitalWrite(led, 0);
+    }
 }
 
 
