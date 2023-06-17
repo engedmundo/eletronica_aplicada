@@ -61,7 +61,7 @@ analogWrite(motor, estado_potenciometro)
 código da cola:
 */
 
-int positivo_motor_direita = 5;
+#define positivo_motor_direita 5
 int negativo_motor_direita = 3;
 int positivo_motor_esquerda = 6;
 int negativo_motor_esquerda = 9;
