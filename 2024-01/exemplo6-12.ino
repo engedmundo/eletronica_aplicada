@@ -13,7 +13,7 @@ void loop() {
     // fazer a leitura da porta/entrada conectada no botão
     estadoBotao = digitalRead(botao);
     // ligar o led por 2 segundos quando o botão for pressionado
-    if (estadoBotao == 1) {
+    if (estadoBotao) {
         digitalWrite(led, 1);
         delay(2000);
     } else {
