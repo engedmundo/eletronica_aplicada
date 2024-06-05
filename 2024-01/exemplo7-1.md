@@ -41,3 +41,9 @@ $2^4 = 16$
 | 1  | 1  | 0 | 1 | 1     |
 | 1  | 1  | 1 | 0 | 1     |
 | 1  | 1  | 1 | 1 | 1     |
+
+
+# 4 - Obtenção de uma equação booleana simplificada
+
+| - | $\overline{G}$ $\overline{P}$ | $\overline{G}$ $P$ | $G$ $P$ | $G$ $\overline{P}$ |
+| - | - | - | - | - | 
