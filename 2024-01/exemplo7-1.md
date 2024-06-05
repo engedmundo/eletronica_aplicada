@@ -46,4 +46,7 @@ $2^4 = 16$
 # 4 - Obtenção de uma equação booleana simplificada
 
 | - | $\overline{G}$ $\overline{P}$ | $\overline{G}$ $P$ | $G$ $P$ | $G$ $\overline{P}$ |
-| - | - | - | - | - | 
+| $\overline{B1}$ $\overline{B2}$ | - | - | - | - | 
+| $\overline{B1}$ $B2$            | - | - | - | - | 
+| $B1$ $B2$                       | - | - | - | - | 
+| $B1$ $\overline{B2}$            | - | - | - | - | 
