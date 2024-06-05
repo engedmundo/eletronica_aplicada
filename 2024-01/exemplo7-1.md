@@ -47,7 +47,7 @@ $2^4 = 16$
 
 | - | $\overline{G}$ $\overline{P}$ | $\overline{G}$ $P$ | $G$ $P$ | $G$ $\overline{P}$ |
 | - | - | - | - | - | 
-| $\overline{B1}$ $\overline{B2}$ | - | - | - | - | 
-| $\overline{B1}$ $B2$            | - | - | - | - | 
-| $B1$ $B2$                       | - | - | - | - | 
-| $B1$ $\overline{B2}$            | - | - | - | - | 
+| $\overline{B1}$ $\overline{B2}$ | 0 | 0 | 1 | 0 | 
+| $\overline{B1}$ $B2$            | 0 | 0 | 1 | 1 | 
+| $B1$ $B2$                       | 1 | 1 | 1 | 1 | 
+| $B1$ $\overline{B2}$            | 0 | 0 | 1 | 1 | 
