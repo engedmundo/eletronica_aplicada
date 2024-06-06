@@ -1,8 +1,33 @@
-/* Comentário de múltiplas linhas
-1 - Formulação verbal do problema
-O cilindro de uma prensa para estampagem deve avançar com, no mínimo, uma das seguintes condições de comando satisfeita:
+#define botao1 2
+#define botao2 3
+#define grade 4
+#define pedal 5
+#define cilindro 8
 
-1) Os dois botões manuais devem estar acionados
-2) A grade de proteção deve estar fechada e o pedal acionado
-3) A grade de proteção deve estar fechada e um dos dois comandos manuais deve estar acionado
-*/
+int b1 = 0;
+int b2 = 0;
+int g = 0;
+int p = 0;
+int c = 0;
+
+void setup() {
+    pinMode(botao1, INPUT);
+    pinMode(botao2, INPUT);
+    pinMode(grade, INPUT);
+    pinMode(pedal, INPUT);
+    pinMode(cilindro, OUTPUT);
+}
+
+void loop() {
+    b1 = digitalRead(botao1);
+    b2 = digitalRead(botao2);
+    g = digitalRead(grade);
+    p = digitalRead(pedal);
+    // aplicar a equação
+    c = (b1 && b2) || (g && p) || (g && b1) || (g && b2);
+    if (c == 1) {
+        digitalWrite(cilindro, 1);
+    } else {
+        digitalWrite(cilindro, 0);
+    }
+}
