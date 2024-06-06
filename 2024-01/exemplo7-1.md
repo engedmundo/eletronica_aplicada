@@ -76,3 +76,8 @@ $C = (B1 * B2) + (G * P) + G(B1 + B2)$
 No SimulIDE
 
 ![figura](diagrama7-1.PNG)
+
+# 6 - Execução física do sistema
+
+No TinkerCAD:
+![figura](execucao.PNG)
