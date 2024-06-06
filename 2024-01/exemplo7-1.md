@@ -75,4 +75,4 @@ $C = (B1 * B2) + (G * P) + G(B1 + B2)$
 
 No SimulIDE
 
-[figura](diagrama7-1.PNG)
+![figura](diagrama7-1.PNG)
