@@ -70,3 +70,9 @@ $C = (B1 * B2) + (G * P) + (B2 * G) + (B1 * G)$
 Colocando $G$ em evidência, temos:
 
 $C = (B1 * B2) + (G * P) + G(B1 + B2)$
+
+# 5 - Elaboração de um fluxograma lógico
+
+No SimulIDE
+
+[figura](diagrama7-1.PNG)
