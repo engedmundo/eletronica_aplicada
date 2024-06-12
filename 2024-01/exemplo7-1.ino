@@ -17,13 +17,15 @@ void setup() {
     pinMode(cilindro, OUTPUT);
 }
 
+
 void loop() {
     b1 = digitalRead(botao1);
     b2 = digitalRead(botao2);
     g = digitalRead(grade);
     p = digitalRead(pedal);
     // aplicar a equação
-    if ((b1 && b2) || (g && p) || (g && b1) || (g && b2)) {
+    c = (b1 && b2) || (g && p) || (g && (b1 || b2));
+    if (c == 1) {
         digitalWrite(cilindro, 1);
     } else {
         digitalWrite(cilindro, 0);
