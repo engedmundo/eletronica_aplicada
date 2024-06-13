@@ -37,10 +37,45 @@ $2^3 = 8$
 
 Duas equações booleanas - uma para cada saída
 
-### Equação para o cilindro:
+### Equação para o cilindro -> $C$:
 
 | - | 00 | 01 | 11 | 10 | - |
 | - | -  | -  | -  | -  | - |
-| 0 | -  | -  | -  | -  | $\overline{A}$ |
-| 1 | -  | -  | -  | -  | $A$ |
-| - | $\overline{B}$ $\overline{C}$  | $B$ $\overline{C}$  | $BC$  | $B$ $\overline{C}$  | - |
+| 0 | 0  | 0  | 1  | 0  | $\overline{B}$ |
+| 1 | 0  | 1  | 1  | 0  | $B$ |
+| - | $\overline{P}$ $\overline{S}$  | $\overline{P}$ $S$  | $PS$  | $P$ $\overline{S}$  | - |
+
+
+$C = C_1 + C_2$
+
+$C_1 = P * S$
+
+$C_2 = B * S$
+
+Substituindo as saídas parciais, temos:
+
+$C = (P * S) + (B * S)$
+
+Colocando $S$ em evidência, temos:
+
+$C = S * (P + B)$
+
+### Equação do alarme $\to$ $A$
+
+| - | 00 | 01 | 11 | 10 | - |
+| - | -  | -  | -  | -  | - |
+| 0 | 0  | 0  | 0  | 1  | $\overline{B}$ |
+| 1 | 1  | 0  | 0  | 1  | $B$ |
+| - | $\overline{P}$ $\overline{S}$  | $\overline{P}$ $S$  | $PS$  | $P$ $\overline{S}$  | - |
+
+
+$A = A_1 + A_2$
+
+$A_1 = P * \overline{S}$
+
+$A_2 = B * \overline{S}$
+
+$A = (P * \overline{S}) + (B * \overline{S})$
+
+$A = \overline{S} * (P + B)$
+
